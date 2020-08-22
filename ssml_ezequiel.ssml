@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<speak ersion="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US>
+
+    <p>
+    
+    <prosody rate="50%" pitch="-2st"> 
+    <s>The path of the righteous man is beset on all sides, by the
+    Inequities of the selfish and the tyranny of evil men.</s>
+    </p>
+    <p>
+    <s>Blessed, is he who, in the name of charity and good will</s>
+    <s>shepherds the weak, through the valley of darkness;
+    </prosody>
+    
+    
+    <emphasis level="moderate">
+    <prosody pitch="+1st">
+    <s>for he is truly his brother's keeper and, the finder of lost children.</s>
+    </p>
+    </prosody>
+    </emphasis>
+    <emphasis level="strong">
+    <prosody pitch="x-high" volume="loud">
+    <p>
+    <s>And I will strike down upon thee, with great vengeance and furious
+    Anger,</s> <s> those who attempt to poison and destroy my brothers.</s>
+    <s>And you will know;</s>
+    <s>My name is the Lord, when I lay my vengeance upon thee.</s>
+    </p>
+    </prosody>
+    </emphasis>
+</speak>
