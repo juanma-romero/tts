@@ -9,11 +9,11 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\speech\ttspeech-bfc6f17140d5
 # Instantiates client
 client = texttospeech.TextToSpeechClient()
 
-file = 'input_text.txt'
+file = 'ssml_boilerplate.ssml'
 with open(file, 'r') as f:
-    text = f.read()
+    text_ssml = f.read()
     # Set the text input to be synthesized
-    synthesis_input = texttospeech.types.SynthesisInput(text=text) # pylint: disable=no-member
+    synthesis_input = texttospeech.types.SynthesisInput(ssml=text_ssml) # pylint: disable=no-member
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")

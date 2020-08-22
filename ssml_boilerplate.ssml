@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<speak ersion="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-US>
+  <p>
+    
+      <s><emphasis level="strong">Impossible</emphasis><break />, is just a big word <break /> <prosody pitch="medium">thrown around by small men;</prosody></s>  
+      <s>who find it easier <break /><prosody pitch="medium"> to live in the world they've been given,</prosody></s>
+      <s>than to explore the <emphasis level="moderate">power they have to change it.</emphasis></s>
+  </p>
+  <p>
+      <s>Impossible is not a fact.</s><break /> <s>It's an opinion.</s>
+      <s>Impossible is not a declaration.</s><break /> <s>It's a dare.</s>
+      <s>Impossible is potential.</s><break /> <s>Impossible is temporary.</s>
+      <s><emphasis level="strong">Impossible.<break /> is nothing.</emphasis></s>
+  
+  </p>
+</speak>
